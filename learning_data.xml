@@ -1,2 +1,71 @@
 <?xml version='1.0' encoding='utf-8'?>
-<learning_platform><students><student><id>1001</id><name>Иван Петров</name><email>ivan@student.ru</email><courses><course_id>101</course_id><course_id>102</course_id></courses></student><student><id>1002</id><name>Мария Козлова</name><email>maria@student.ru</email><courses><course_id>101</course_id></courses></student></students><instructors><instructor><id>1</id><name>Анна Иванова</name><email>anna@university.ru</email></instructor><instructor><id>2</id><name>Петр Сидоров</name><email>petr@university.ru</email></instructor></instructors><courses><course><id>101</id><title>Python для начинающих</title><description>Основы Python</description><instructor_id>1</instructor_id><students><student_id>1001</student_id><student_id>1002</student_id></students><grades><grade><student_id>1001</student_id><value>85</value></grade><grade><student_id>1002</student_id><value>92</value></grade></grades></course><course><id>102</id><title>Веб-разработка</title><description>HTML, CSS, JavaScript</description><instructor_id>2</instructor_id><students><student_id>1001</student_id></students><grades><grade><student_id>1001</student_id><value>78</value></grade></grades></course></courses></learning_platform>
+<learning_platform>
+    <students>
+        <student>
+            <id>1001</id>
+            <name>Иван Петров</name>
+            <email>ivan@student.ru</email>
+            <courses>
+                <course_id>101</course_id>
+                <course_id>102</course_id>
+            </courses>
+        </student>
+        <student>
+            <id>1002</id>
+            <name>Мария Козлова</name>
+            <email>maria@student.ru</email>
+            <courses>
+                <course_id>101</course_id>
+            </courses>
+        </student>
+    </students>
+    <instructors>
+        <instructor>
+            <id>1</id>
+            <name>Анна Иванова</name>
+            <email>anna@university.ru</email>
+        </instructor>
+        <instructor>
+            <id>2</id>
+            <name>Петр Сидоров</name>
+            <email>petr@university.ru</email>
+        </instructor>
+    </instructors>
+    <courses>
+        <course>
+            <id>101</id>
+            <title>Python для начинающих</title>
+            <description>Основы Python</description>
+            <instructor_id>1</instructor_id>
+            <students>
+                <student_id>1001</student_id>
+                <student_id>1002</student_id>
+            </students>
+            <grades>
+                <grade>
+                    <student_id>1001</student_id>
+                    <value>85</value>
+                </grade>
+                <grade>
+                    <student_id>1002</student_id>
+                    <value>92</value>
+                </grade>
+            </grades>
+        </course>
+        <course>
+            <id>102</id>
+            <title>Веб-разработка</title>
+            <description>HTML, CSS, JavaScript</description>
+            <instructor_id>2</instructor_id>
+            <students>
+                <student_id>1001</student_id>
+            </students>
+            <grades>
+                <grade>
+                    <student_id>1001</student_id>
+                    <value>78</value>
+                </grade>
+            </grades>
+        </course>
+    </courses>
+</learning_platform>
