@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": 1001,
+      "name": "Иван Петров",
+      "email": "ivan@student.ru",
+      "courses": [
+        101,
+        102
+      ]
+    },
+    {
+      "id": 1002,
+      "name": "Мария Козлова",
+      "email": "maria@student.ru",
+      "courses": [
+        101
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "Анна Иванова",
+      "email": "anna@university.ru",
+      "courses": [
+        101
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Петр Сидоров",
+      "email": "petr@university.ru",
+      "courses": [
+        102
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 101,
+      "title": "Python для начинающих",
+      "description": "Основы Python",
+      "instructor_id": 1,
+      "students": [
+        1001,
+        1002
+      ],
+      "grades": {
+        "1001": 85,
+        "1002": 92
+      }
+    },
+    {
+      "id": 102,
+      "title": "Веб-разработка",
+      "description": "HTML, CSS, JavaScript",
+      "instructor_id": 2,
+      "students": [
+        1001
+      ],
+      "grades": {
+        "1001": 78
+      }
+    }
+  ]
+}
